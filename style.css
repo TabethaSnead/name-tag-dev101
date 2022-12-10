@@ -28,3 +28,19 @@ header .logo {
 main {
     padding: 20px;
 }
+
+.hello{
+    background-color:red;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 300px;
+    color:white;
+    margin: 50px;
+}
+
+.name{
+    background-color:white;
+    color: purple;
+    padding:15px;
+    font-size: 20px;
+}
