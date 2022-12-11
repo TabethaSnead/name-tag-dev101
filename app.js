@@ -13,19 +13,19 @@ const pronounButton = document.getElementById('pronounButton');
 const pronounAnswer = document.getElementById('pronounsAnswer');
 
 button.addEventListener('click', ()=>{
-    console.log('I am clicking the button');
-nameDisplay.textContent = input.value;
+   // console.log('I am clicking the button');
+    nameDisplay.textContent = input.value;
 
 
 });
 
 helloChange.addEventListener('click', ()=>{
     howdy.textContent = helloInput.value;
-})
+});
 
 pronounButton.addEventListener('click', ()=>{
     pronounAnswer.textContent = pronounInput.value;
-})
+});
 
 // grab DOM elements
 
